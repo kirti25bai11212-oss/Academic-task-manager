@@ -1,5 +1,3 @@
-![output](https://github.com/user-attachments/assets/ebb05824-255a-4f7b-b3b2-a312510dcdfe)
-<img width="2172" height="9640" alt="code" src="https://github.com/user-attachments/assets/59bac3b9-81a9-4418-94d8-cb9af2601ceb" />
 # Academic-task-manager
 The Academic Task Manager is a desktop-based Command Line Interface (CLI) application developed using Python. It is designed to assist students and professionals in organizing their daily academic and personal responsibilities. The system provides a centralized platform to create, track, and manage tasks with varying priority levels. 
 # Academic Task Manager
@@ -78,3 +76,5 @@ Since this is a CLI application, you can verify functionality by following this 
 
 **License**
 This project is open-source and available for educational purposes.
+![output](https://github.com/user-attachments/assets/ebb05824-255a-4f7b-b3b2-a312510dcdfe)
+<img width="2172" height="9640" alt="code" src="https://github.com/user-attachments/assets/59bac3b9-81a9-4418-94d8-cb9af2601ceb" />
