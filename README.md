@@ -71,7 +71,7 @@ Since this is a CLI application, you can verify functionality by following this 
 
 **4. Analytics (Logic Test)**
 * *Action:* Mark a task as "Completed" (Option 3).
-* *Action:* View Analytics (Option 5).
+* *Action:* View Analytics
 * *Expected Result:* If you have 1 task and it is completed, the efficiency score should be *100.00%*.
 
 ![output](https://github.com/user-attachments/assets/ebb05824-255a-4f7b-b3b2-a312510dcdfe)
