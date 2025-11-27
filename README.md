@@ -22,7 +22,7 @@ Unlike simple script-based to-do lists, this application utilizes a *Service-Ori
   * Data Isolation: The system filters data by User ID, ensuring users cannot see or modify each other's tasks.
 
 **Technologies Used**
-* Language: Python 3.6+
+* Language: Python 3
 * Core Libraries:
     * json: For database serialization/deserialization.
     * hashlib: For cryptographic password hashing.
