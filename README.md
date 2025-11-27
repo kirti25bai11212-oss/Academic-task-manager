@@ -74,7 +74,5 @@ Since this is a CLI application, you can verify functionality by following this 
 * *Action:* View Analytics (Option 5).
 * *Expected Result:* If you have 1 task and it is completed, the efficiency score should be *100.00%*.
 
-**License**
-This project is open-source and available for educational purposes.
 ![output](https://github.com/user-attachments/assets/ebb05824-255a-4f7b-b3b2-a312510dcdfe)
 <img width="2172" height="9640" alt="code" src="https://github.com/user-attachments/assets/59bac3b9-81a9-4418-94d8-cb9af2601ceb" />
