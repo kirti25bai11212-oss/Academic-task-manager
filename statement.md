@@ -12,20 +12,6 @@ There is a need for a lightweight, distraction-free tool that allows users to ca
 The Academic Task Manager is a localized, command-line based application designed to solve the problems listed above through a modular architecture.
 
 
-
-**In-Scope**
-* User Interface: A text-based Command Line Interface (CLI) for interaction.
-* Data Storage: Local file-based persistence using JSON format (app_data.json).
-* Security: Local authentication with password hashing (SHA-256).
-* Core Functionality: Complete lifecycle management of tasks (Creation to Deletion).
-* Reporting: Basic statistical calculation of user efficiency.
-
-**Out-of-Scope**
-* Cloud Synchronization: The application will not sync data across multiple devices or servers.
-* Graphical User Interface (GUI): No windowed interface (desktop or web) is included in this version.
-* Real-time Collaboration: The system is designed for individual use; concurrent multi-user editing is not supported.
-* Notifications: No push notifications or email reminders.
-
 **3. Target Users**
 The application is tailored for individuals who prefer keyboard-centric workflows and require offline accessibility:
 
@@ -49,6 +35,3 @@ The system is built upon four main functional pillars:
 
 **C. Data Persistence**
 * Auto-Save: The system automatically writes to the local JSON database after every creation, update, or deletion event, ensuring no data is lost if the application closes.
-
- **D. Analytics Module**
-* Productivity Reporting: A calculated metric displaying the user's "Efficiency Score" (Percentage of completed tasks vs. total tasks) to encourage progress tracking.
