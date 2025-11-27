@@ -4,13 +4,9 @@ import hashlib
 import datetime
 from datetime import datetime as dt
 
-# --- CONFIGURATION ---
 DATA_FILE = "app_data.json"
 
-# --- DATA LAYER (Non-Functional Req: Reliability/Persistence) ---
 class DataManager:
-    """Handles loading and saving data to JSON."""
-
     @staticmethod
     def load_data():
         if not os.path.exists(DATA_FILE):
@@ -31,9 +27,7 @@ class DataManager:
             print("Error saving data.")
 
 
-# --- SECURITY MODULE (Non-Functional Req: Security) ---
 class SecurityService:
-    """Handles password hashing."""
 
     @staticmethod
     def hash_password(password):
@@ -43,8 +37,6 @@ class SecurityService:
     def verify_password(stored_hash, provided_password):
         return stored_hash == hashlib.sha256(provided_password.encode()).hexdigest()
 
-
-# --- MODULE 1: USER MANAGEMENT (Functional Req 1) ---
 class UserManager:
     def _init_(self, data):
         self.data = data
@@ -93,8 +85,6 @@ class UserManager:
         if self.current_user:
             self.current_user = None
 
-
-# --- MODULE 2: TASK MANAGEMENT (Functional Req 2: CRUD) ---
 class TaskManager:
     def _init_(self, data, user_manager):
         self.data = data
@@ -189,8 +179,6 @@ class TaskManager:
         except ValueError:
             print("Invalid input.")
 
-
-# --- MODULE 3: ANALYTICS (Functional Req 3: Reporting) ---
 class AnalyticsEngine:
     def _init_(self, data, user_manager):
         self.data = data
@@ -217,7 +205,6 @@ class AnalyticsEngine:
         print(f"Efficiency:  {completion_rate:.2f}%")
 
 
-# --- MAIN APPLICATION CONTROLLER (Workflow) ---
 class Application:
     def _init_(self):
         self.data = DataManager.load_data()
